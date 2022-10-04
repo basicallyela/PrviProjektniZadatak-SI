@@ -15,7 +15,7 @@ h1 {
   text-shadow: 2px 3px #635a4f;
   background-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg');
   background-size: auto;
-  color: #c8b8a5;
+  color: #9b8f80;
   font-family: 'Inter Tight', sans-serif;
   font-size: 200px;
   margin-top: 3px;
@@ -28,7 +28,7 @@ h1 {
   margin-bottom: 3px;
   margin-top: 0.1px;
   text-align: center;
-  background-color: #c8b8a5;
+  background-color: #9b8f80;
   color:#F4F2E9
 }
 
@@ -39,7 +39,7 @@ h1 {
 .buttonsip button {
   font-family: "Inter Tight", sans-serif;
   width: 200px;
-  background-color: #c8b8a5;
+  background-color: #9b8f80;
   border:0;
   cursor:pointer;
   color: #f2efdf;

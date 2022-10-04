@@ -1,0 +1,17 @@
+body
+{
+    background-color: #F4F2E9;
+    margin: 3px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 3px #635a4f;
+    background-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg');
+    background-size: auto;
+    color: #9b8f80;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 100px;
+    margin-top: 3px;
+    margin-bottom: 0.1px;
+  }
