@@ -1,6 +1,6 @@
 body
 {
-    background-color: #F4F2E9;
+    background-color: #EEE7D7;
     margin: 3px;
 }
 
@@ -182,7 +182,7 @@ form {
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border:2px solid #EEE7D7;
+    border:2px solid rgb(0,0,0);
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -191,7 +191,7 @@ form {
     outline:0;
   }
   
-  .fi:focus { border:2px solid #EEE7D7; }
+  .fi:focus { border:2px solid #c4b19b; }
   
   textarea {
     font-family: "Inter Tight", sans-serif;
@@ -203,9 +203,9 @@ form {
   [type="submit"] {
     font-family: "Inter Tight", sans-serif;
     width: 100%;
-    background:#EEE7D7;
+    background:#E5D3BD;
     border-radius:5px;
-    border:0;
+    border:2px solid rgb(0,0,0);
     cursor:pointer;
     color:rgb(74, 74, 74);
     font-size:24px;
@@ -215,6 +215,10 @@ form {
     margin-top:-4px;
     font-weight:700;
   }
-  [type="submit"]:hover { background:#E5D3BD; }
+  [type="submit"]:hover { background:#c4b19b; }
+
+  footer {
+    font-family: 'Inter Tight', sans-serif;
+  }
 
   
