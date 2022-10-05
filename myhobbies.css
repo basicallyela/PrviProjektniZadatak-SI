@@ -1,10 +1,19 @@
 /*background color*/
+
+
+
 body
 {
     background-color: #EEE7D7;
     margin: 3px;
-}
+} 
+
+
+
 /*title*/
+
+
+
 h1 {
     text-align: center;
     text-shadow: 2px 3px #635a4f;
@@ -16,6 +25,10 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+
+  /*nav buttons*/
+
 
 
   .buttonsip button {
@@ -34,28 +47,41 @@ h1 {
   }
   .buttonsip button:hover {background: #F4F2E9;
   color: #9b8f80;}
- 
- /*paragraphs*/
-  p {
-    text-align: center;
-    font-family: "Inter Tight", sans-serif;
-    font-size: 20px;
-    color: #ffebd4;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-  }
-  .cont {
-    background-color:#9b8f80;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left:20px;
-    margin-right: 25px;
+
+
+
+  /*hobbies image and description*/
+
+
+
+.hobbies img {
+    margin-left: 22px;
+    margin-top: 15px;
+    margin-right: 22px;
+    margin-bottom: 0.1px;
+    width: 300px;
+    height: 300px;
+}
+.hobbies .hobiji {
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 2px solid #9b8f80;
+    background-color: #9b8f80;
     box-shadow: 5px 5px #635a4f;
-  }
-  footer {
-    font-family: 'Inter Tight', sans-serif;
-  }
+
+    
+}  
+.hobbies p {
+    font-family: "Inter Tight", sans-serif;
+    margin: 0.1px;
+    text-align: center;
+    color:#f2efdf;
+    font-size: 20px;
+    font-weight: 500;
+}

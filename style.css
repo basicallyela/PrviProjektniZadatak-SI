@@ -1,12 +1,12 @@
-body
-{
+/*just the overall background*/
+body {
     background-color: #EEE7D7;
     margin: 3px;
 }
 
 
 
-/*naslov i opis*/
+/*The title and description*/
 
 
 
@@ -34,7 +34,7 @@ h1 {
 
 
 
-/*dugmici*/
+/*Buttons*/
 
 .buttonsip button {
   font-family: "Inter Tight", sans-serif;
@@ -53,111 +53,13 @@ h1 {
 .buttonsip button:hover {background: #F4F2E9;
 color: #9b8f80;}
 
-/*slikiceeee*/
+
+
+/*Pictures*/
 
 
 
-#s1 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-
-#s2 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s3 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s4 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s5 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s6 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s7 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s8 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s9 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s10 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s11 {
-  width: 240px;
-  height: 240px;
-  border: solid;
-  border-width: 20px;
-  border-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg') 90 round;
-  margin: 15px;
-  box-shadow: 5px 5px #888888;
-}
-#s12 {
+img {
   width: 240px;
   height: 240px;
   border: solid;
@@ -168,7 +70,8 @@ color: #9b8f80;}
 }
 
 
-/*formaaaa*/
+
+/*forms*/
 
 
 
@@ -200,7 +103,13 @@ form {
     line-height: 150%;
     resize:vertical;
   }
-  
+
+
+
+  /*submit button*/
+
+
+
   [type="submit"] {
     font-family: "Inter Tight", sans-serif;
     width: 100%;
@@ -217,6 +126,10 @@ form {
     font-weight:700;
   }
   [type="submit"]:hover { background:#c4b19b; }
+
+
+  /*footer*/
+
 
   footer {
     font-family: 'Inter Tight', sans-serif;

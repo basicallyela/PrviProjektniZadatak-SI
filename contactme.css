@@ -1,3 +1,7 @@
+/*overall background*/
+
+
+
 body
 {
     background-image: url('https://i.pinimg.com/originals/bd/31/bd/bd31bd51293900fcd4fbddcaa47e4a37.jpg');
@@ -6,7 +10,7 @@ body
 
 
 
-/*heading*/
+/*Title*/
 
 
 
@@ -26,6 +30,9 @@ h1 {
 
 
   /*forms*/
+
+
+
   form {
     margin-top: 30px;
     margin-bottom: 80px;
@@ -52,6 +59,11 @@ h1 {
 
   .fi:focus { border:2px solid #635a4f;
   background-color: #E5D3BD; }
+
+
+  /*sign in button*/
+
+
 
   [type="submit"] {
     font-family: "Inter Tight", sans-serif;
@@ -86,6 +98,8 @@ h1 {
   [type="submit"]:hover { background:#EEE7D7; }
  
 
+
+/*navig. buttons*/
 
 
   .buttonsip button {
